@@ -1,3 +1,15 @@
+:root {
+    --main-black: #181717;
+    --main-white: #F3F3F3;
+    --main-gray: #606060;
+    --secondary: #FDC435; 
+    --heading-font: 'DM Sans',
+    sans-serif;
+    --body-font: 'Inter',
+    sans-serif;
+    --button-shadow: text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 h1 {
     font-family: 'DM Sans',
     sans-serif;
