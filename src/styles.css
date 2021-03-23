@@ -3,28 +3,56 @@
     --main-white: #F3F3F3;
     --main-gray: #606060;
     --secondary: #FDC435; 
-    --heading-font: 'DM Sans',
+    --font-heading: 'DM Sans',
     sans-serif;
-    --body-font: 'Inter',
+    --font-body: 'Inter',
     sans-serif;
-    --button-shadow: text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --shadow: text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body {
+    background-color: var(--main-white);
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    padding: ;
 }
 
 h1 {
-    font-family: 'DM Sans',
-    sans-serif;
+    font-family: var(-font-heading);
     font-weight: 500;
+    font-size: 60px;
+    line-height: 58.32px;
+    
+    color: var(--main-black);
 }
 
 h2 {
-    font-family: 'DM Sans',
-    sans-serif;
+    font-family: var(--font-heading);
     font-weight: 400;
+    font-size: 32px;
+    line-height: 37.44px;
+    
+    color: var(--main-gray);
 }
 
 p {
-    font-family: 'Inter',
-sans-serif;
-font-weight: 400;
+    font-family: var(--font-body);
+    font-weight: 400;
+    line-height:21.87px;
+}
 
+a {
+    color: var(--main-black);
+    text-decoration: none;
+    border-bottom: 4px solid #FDC435;
+}
+
+
+.homapage-body-section {
+    padding: 228px 100px;
+}
+
+.headline {
+    color: var(--secondary);
 }
