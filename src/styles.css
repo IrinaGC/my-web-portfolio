@@ -52,7 +52,9 @@ a {
 .homapage-body-section {
     padding: 228px 100px;
 }
-
-.headline {
+.headline-text {
+    z-index: 100;
+}
+.headline-p {
     color: var(--secondary);
 }
