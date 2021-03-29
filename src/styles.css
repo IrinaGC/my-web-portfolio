@@ -56,6 +56,11 @@ text-shadow: none;
 border-bottom: 4px solid #606060;
 
 }
+.heading-img:hover {
+    background: url(/src/imagines/programing.png);
+    background-position: 1;
+
+}
 
 .links-heading-hero {
     display: flex;
