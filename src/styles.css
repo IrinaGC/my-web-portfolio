@@ -76,9 +76,10 @@ border-bottom: 4px solid #606060;
     margin: 32px 50px 32px 0px;
 }
 
-.homapage-body-section {
+.homepage-body-section {
     margin: 228px 100px;
-    height: 466px;
+    height: 700px;
+    max-width: 1440px;
 }
 .headline-text {
     z-index: 100;
