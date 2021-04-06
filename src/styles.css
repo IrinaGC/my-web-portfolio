@@ -15,7 +15,7 @@ body {
     font-size: 18px;
     font-style: normal;
     letter-spacing: -0.03em;
-    padding: ;
+    
 }
 
 h1 {
@@ -87,3 +87,4 @@ border-bottom: 4px solid #606060;
 .headline-p {
     color: var(--secondary);
 }
+
