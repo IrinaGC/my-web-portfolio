@@ -56,11 +56,6 @@ text-shadow: none;
 border-bottom: 4px solid #606060;
 
 }
-.heading-img:hover {
-    background: url(/src/imagines/programing.png);
-    background-position: 1;
-
-}
 
 .links-heading-hero {
     display: flex;
@@ -86,5 +81,10 @@ border-bottom: 4px solid #606060;
 }
 .headline-p {
     color: var(--secondary);
+}
+
+.portfolio-item:hover {
+    opacity:50%;
+    background-color: rgba(255, 209, 102, 0.9);
 }
 
